@@ -14,11 +14,12 @@ function setup(){
     new Canvas(400, 600);
     // write code to create sprite and load bird image on sprite
     bird = new Sprite()
+    bird.image = birdImg
     bird.width = 30
     bird.height = 30
     bird.x = 200
     bird.y = 300
-    bird.image = birdImg
+    
 }
  
  
